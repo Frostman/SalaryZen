@@ -108,7 +108,6 @@ def main():
     write_timestamp(result)
 
     print "New data aggregated at %s" % datetime.datetime.now()
-    print json.dumps(result, indent=4)
 
     result_file.write(json.dumps(result))
     result_file.close()
