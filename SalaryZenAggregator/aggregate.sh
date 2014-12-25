@@ -7,5 +7,5 @@ cd SalaryZenAggregator
 virtualenv venv
 . venv/bin/activate
 pip install -U -r requirements.txt
-python aggregator.py -o $1
+python aggregator.py -o "$@"
 deactivate
