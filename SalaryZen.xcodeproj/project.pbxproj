@@ -28,6 +28,10 @@
 		57F03E071A63171400EB1990 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DE01A6316B100EB1990 /* Alamofire.framework */; };
 		57F03E081A63171400EB1990 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DE01A6316B100EB1990 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57F03E0C1A63178600EB1990 /* SalaryZenKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F03E0B1A63178600EB1990 /* SalaryZenKit.swift */; };
+		57F03E551A63226F00EB1990 /* SalaryZenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03D9F1A62E31200EB1990 /* SalaryZenKit.framework */; };
+		57F03E561A63226F00EB1990 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DE01A6316B100EB1990 /* Alamofire.framework */; };
+		57F03E571A63226F00EB1990 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DED1A6316BB00EB1990 /* AlamofireSwiftyJSON.framework */; };
+		57F03E581A63226F00EB1990 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DF81A6316C600EB1990 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +234,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F03E551A63226F00EB1990 /* SalaryZenKit.framework in Frameworks */,
+				57F03E561A63226F00EB1990 /* Alamofire.framework in Frameworks */,
+				57F03E571A63226F00EB1990 /* AlamofireSwiftyJSON.framework in Frameworks */,
+				57F03E581A63226F00EB1990 /* SwiftyJSON.framework in Frameworks */,
 				57F03DC61A62E32F00EB1990 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
