@@ -98,6 +98,7 @@
 		57F03DC91A62E32F00EB1990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F03DCA1A62E32F00EB1990 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		57F03DCC1A62E32F00EB1990 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		57F03DD51A62F2F900EB1990 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +139,7 @@
 		57F03D6C1A62E2A200EB1990 = {
 			isa = PBXGroup;
 			children = (
+				57F03DD51A62F2F900EB1990 /* tools */,
 				57F03D771A62E2A200EB1990 /* SalaryZen */,
 				57F03DA01A62E31200EB1990 /* SalaryZenKit */,
 				57F03DAF1A62E31200EB1990 /* SalaryZenKitTests */,
@@ -262,6 +264,7 @@
 				57F03D731A62E2A200EB1990 /* Resources */,
 				57F03DBB1A62E31200EB1990 /* Embed Frameworks */,
 				57F03DD41A62E32F00EB1990 /* Embed App Extensions */,
+				57F03DD61A62FA1D00EB1990 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -282,6 +285,7 @@
 				57F03D9B1A62E31200EB1990 /* Frameworks */,
 				57F03D9C1A62E31200EB1990 /* Headers */,
 				57F03D9D1A62E31200EB1990 /* Resources */,
+				57F03DD71A62FAB300EB1990 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -318,6 +322,7 @@
 				57F03DBF1A62E32F00EB1990 /* Sources */,
 				57F03DC01A62E32F00EB1990 /* Frameworks */,
 				57F03DC11A62E32F00EB1990 /* Resources */,
+				57F03DD81A62FAC100EB1990 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -410,6 +415,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F03DD61A62FA1D00EB1990 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -x\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
+		};
+		57F03DD71A62FAB300EB1990 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -x\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
+		};
+		57F03DD81A62FAC100EB1990 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -x\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57F03D711A62E2A200EB1990 /* Sources */ = {
