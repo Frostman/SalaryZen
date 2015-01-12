@@ -1003,6 +1003,7 @@
 				57F03D961A62E2A200EB1990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57F03DB81A62E31200EB1990 /* Build configuration list for PBXNativeTarget "SalaryZenKit" */ = {
 			isa = XCConfigurationList;
@@ -1011,6 +1012,7 @@
 				57F03DBA1A62E31200EB1990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57F03DBC1A62E31200EB1990 /* Build configuration list for PBXNativeTarget "SalaryZenKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1019,6 +1021,7 @@
 				57F03DBE1A62E31200EB1990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57F03DD11A62E32F00EB1990 /* Build configuration list for PBXNativeTarget "SalaryZenToday" */ = {
 			isa = XCConfigurationList;
@@ -1027,6 +1030,7 @@
 				57F03DD31A62E32F00EB1990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
