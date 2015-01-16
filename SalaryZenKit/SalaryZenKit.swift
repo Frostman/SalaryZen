@@ -57,7 +57,7 @@ public class CurrencyExchangeInfo {
 public class SalaryZenAggregatorDataFetcher {
     public func updateRates(currencyExchangeInfos infos: [CurrencyExchangeInfo],
         handler: (error: Bool) -> Void = {_ in /* NOOP */}) {
-            let url = "http://f.slukjanov.name/salaryzen/data.json"
+            let url = "http://f.slukjanov.name/salaryzen/datav1.json"
             
             Alamofire.request(.GET, url).responseSwiftyJSON {
                 (request, response, json, error) in
