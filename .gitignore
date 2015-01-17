@@ -1,5 +1,9 @@
 # Manually added
 
+# Parse.com
+
+parse/config
+
 # Created by https://www.gitignore.io
 # https://www.gitignore.io/api/osx,xcode,intellij,objective-c,swift,c,c++,vim
 
