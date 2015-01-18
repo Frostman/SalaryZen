@@ -7,6 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A712131A6B2181006EFC31 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712101A6B2181006EFC31 /* Bolts.framework */; };
+		57A712141A6B2181006EFC31 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712101A6B2181006EFC31 /* Bolts.framework */; };
+		57A712151A6B2181006EFC31 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712111A6B2181006EFC31 /* Parse.framework */; };
+		57A712161A6B2181006EFC31 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712111A6B2181006EFC31 /* Parse.framework */; };
+		57A712171A6B2181006EFC31 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712121A6B2181006EFC31 /* ParseCrashReporting.framework */; };
+		57A712181A6B2181006EFC31 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712121A6B2181006EFC31 /* ParseCrashReporting.framework */; };
+		57A712201A6B21D9006EFC31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7121F1A6B21D9006EFC31 /* AudioToolbox.framework */; };
+		57A712221A6B21E1006EFC31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712211A6B21E1006EFC31 /* CFNetwork.framework */; };
+		57A712241A6B21E9006EFC31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712231A6B21E9006EFC31 /* CoreGraphics.framework */; };
+		57A712261A6B21F1006EFC31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712251A6B21F1006EFC31 /* CoreLocation.framework */; };
+		57A712281A6B21FC006EFC31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712271A6B21FC006EFC31 /* MobileCoreServices.framework */; };
+		57A7122A1A6B2204006EFC31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712291A6B2204006EFC31 /* QuartzCore.framework */; };
+		57A7122C1A6B220D006EFC31 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7122B1A6B220D006EFC31 /* Security.framework */; };
+		57A712301A6B2220006EFC31 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7122F1A6B2220006EFC31 /* StoreKit.framework */; };
+		57A712321A6B2227006EFC31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712311A6B2227006EFC31 /* SystemConfiguration.framework */; };
+		57A712341A6B2241006EFC31 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712331A6B2241006EFC31 /* libstdc++.6.dylib */; };
+		57A712361A6B224A006EFC31 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712351A6B224A006EFC31 /* libz.dylib */; };
+		57A712381A6B2251006EFC31 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712371A6B2251006EFC31 /* libsqlite3.dylib */; };
+		57A712391A6B22AA006EFC31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DE01A6316B100EB1990 /* Alamofire.framework */; };
+		57A7123A1A6B22AA006EFC31 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DED1A6316BB00EB1990 /* AlamofireSwiftyJSON.framework */; };
+		57A7123B1A6B22AA006EFC31 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F03DF81A6316C600EB1990 /* SwiftyJSON.framework */; };
+		57A7123C1A6B22AA006EFC31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7121F1A6B21D9006EFC31 /* AudioToolbox.framework */; };
+		57A7123D1A6B22AA006EFC31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712211A6B21E1006EFC31 /* CFNetwork.framework */; };
+		57A7123E1A6B22AA006EFC31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712231A6B21E9006EFC31 /* CoreGraphics.framework */; };
+		57A7123F1A6B22AA006EFC31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712251A6B21F1006EFC31 /* CoreLocation.framework */; };
+		57A712401A6B22AA006EFC31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712271A6B21FC006EFC31 /* MobileCoreServices.framework */; };
+		57A712411A6B22AA006EFC31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712291A6B2204006EFC31 /* QuartzCore.framework */; };
+		57A712421A6B22AA006EFC31 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7122B1A6B220D006EFC31 /* Security.framework */; };
+		57A712431A6B22AA006EFC31 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7122F1A6B2220006EFC31 /* StoreKit.framework */; };
+		57A712441A6B22AA006EFC31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712311A6B2227006EFC31 /* SystemConfiguration.framework */; };
+		57A712451A6B22B9006EFC31 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712331A6B2241006EFC31 /* libstdc++.6.dylib */; };
+		57A712461A6B22C0006EFC31 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712351A6B224A006EFC31 /* libz.dylib */; };
+		57A712471A6B22C6006EFC31 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712371A6B2251006EFC31 /* libsqlite3.dylib */; };
+		57A712481A6B231E006EFC31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7121F1A6B21D9006EFC31 /* AudioToolbox.framework */; };
+		57A712491A6B231E006EFC31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712211A6B21E1006EFC31 /* CFNetwork.framework */; };
+		57A7124A1A6B231E006EFC31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712231A6B21E9006EFC31 /* CoreGraphics.framework */; };
+		57A7124B1A6B231E006EFC31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712251A6B21F1006EFC31 /* CoreLocation.framework */; };
+		57A7124C1A6B231E006EFC31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712271A6B21FC006EFC31 /* MobileCoreServices.framework */; };
+		57A7124D1A6B231E006EFC31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712291A6B2204006EFC31 /* QuartzCore.framework */; };
+		57A7124E1A6B231E006EFC31 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7122B1A6B220D006EFC31 /* Security.framework */; };
+		57A7124F1A6B231E006EFC31 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A7122F1A6B2220006EFC31 /* StoreKit.framework */; };
+		57A712501A6B231E006EFC31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712311A6B2227006EFC31 /* SystemConfiguration.framework */; };
+		57A712511A6B2328006EFC31 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712331A6B2241006EFC31 /* libstdc++.6.dylib */; };
+		57A712521A6B232F006EFC31 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712351A6B224A006EFC31 /* libz.dylib */; };
+		57A712531A6B2336006EFC31 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A712371A6B2251006EFC31 /* libsqlite3.dylib */; };
 		57F03D7B1A62E2A200EB1990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F03D7A1A62E2A200EB1990 /* AppDelegate.swift */; };
 		57F03D7D1A62E2A200EB1990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F03D7C1A62E2A200EB1990 /* ViewController.swift */; };
 		57F03D801A62E2A200EB1990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F03D7E1A62E2A200EB1990 /* Main.storyboard */; };
@@ -178,6 +223,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		57A712101A6B2181006EFC31 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		57A712111A6B2181006EFC31 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Frameworks/Parse.framework; sourceTree = "<group>"; };
+		57A712121A6B2181006EFC31 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = Frameworks/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		57A7121F1A6B21D9006EFC31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		57A712211A6B21E1006EFC31 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		57A712231A6B21E9006EFC31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57A712251A6B21F1006EFC31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57A712271A6B21FC006EFC31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		57A712291A6B2204006EFC31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57A7122B1A6B220D006EFC31 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		57A7122D1A6B2212006EFC31 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		57A7122F1A6B2220006EFC31 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		57A712311A6B2227006EFC31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57A712331A6B2241006EFC31 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		57A712351A6B224A006EFC31 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		57A712371A6B2251006EFC31 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		57F03D751A62E2A200EB1990 /* SalaryZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F03D791A62E2A200EB1990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F03D7A1A62E2A200EB1990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -208,9 +269,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A712381A6B2251006EFC31 /* libsqlite3.dylib in Frameworks */,
+				57A712361A6B224A006EFC31 /* libz.dylib in Frameworks */,
+				57A712341A6B2241006EFC31 /* libstdc++.6.dylib in Frameworks */,
+				57A712321A6B2227006EFC31 /* SystemConfiguration.framework in Frameworks */,
+				57A712301A6B2220006EFC31 /* StoreKit.framework in Frameworks */,
+				57A7122C1A6B220D006EFC31 /* Security.framework in Frameworks */,
+				57A7122A1A6B2204006EFC31 /* QuartzCore.framework in Frameworks */,
+				57A712281A6B21FC006EFC31 /* MobileCoreServices.framework in Frameworks */,
+				57A712261A6B21F1006EFC31 /* CoreLocation.framework in Frameworks */,
+				57A712241A6B21E9006EFC31 /* CoreGraphics.framework in Frameworks */,
+				57A712221A6B21E1006EFC31 /* CFNetwork.framework in Frameworks */,
+				57A712201A6B21D9006EFC31 /* AudioToolbox.framework in Frameworks */,
+				57A712131A6B2181006EFC31 /* Bolts.framework in Frameworks */,
 				57F03DFF1A63171400EB1990 /* SwiftyJSON.framework in Frameworks */,
 				57F03E031A63171400EB1990 /* AlamofireSwiftyJSON.framework in Frameworks */,
 				57F03DB61A62E31200EB1990 /* SalaryZenKit.framework in Frameworks */,
+				57A712151A6B2181006EFC31 /* Parse.framework in Frameworks */,
+				57A712171A6B2181006EFC31 /* ParseCrashReporting.framework in Frameworks */,
 				57F03E071A63171400EB1990 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +295,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A712471A6B22C6006EFC31 /* libsqlite3.dylib in Frameworks */,
+				57A712461A6B22C0006EFC31 /* libz.dylib in Frameworks */,
+				57A712451A6B22B9006EFC31 /* libstdc++.6.dylib in Frameworks */,
+				57A712391A6B22AA006EFC31 /* Alamofire.framework in Frameworks */,
+				57A7123A1A6B22AA006EFC31 /* AlamofireSwiftyJSON.framework in Frameworks */,
+				57A7123B1A6B22AA006EFC31 /* SwiftyJSON.framework in Frameworks */,
+				57A7123C1A6B22AA006EFC31 /* AudioToolbox.framework in Frameworks */,
+				57A7123D1A6B22AA006EFC31 /* CFNetwork.framework in Frameworks */,
+				57A7123E1A6B22AA006EFC31 /* CoreGraphics.framework in Frameworks */,
+				57A7123F1A6B22AA006EFC31 /* CoreLocation.framework in Frameworks */,
+				57A712401A6B22AA006EFC31 /* MobileCoreServices.framework in Frameworks */,
+				57A712411A6B22AA006EFC31 /* QuartzCore.framework in Frameworks */,
+				57A712421A6B22AA006EFC31 /* Security.framework in Frameworks */,
+				57A712431A6B22AA006EFC31 /* StoreKit.framework in Frameworks */,
+				57A712441A6B22AA006EFC31 /* SystemConfiguration.framework in Frameworks */,
+				57A712161A6B2181006EFC31 /* Parse.framework in Frameworks */,
+				57A712181A6B2181006EFC31 /* ParseCrashReporting.framework in Frameworks */,
+				57A712141A6B2181006EFC31 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +328,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A712531A6B2336006EFC31 /* libsqlite3.dylib in Frameworks */,
+				57A712521A6B232F006EFC31 /* libz.dylib in Frameworks */,
+				57A712511A6B2328006EFC31 /* libstdc++.6.dylib in Frameworks */,
+				57A712481A6B231E006EFC31 /* AudioToolbox.framework in Frameworks */,
+				57A712491A6B231E006EFC31 /* CFNetwork.framework in Frameworks */,
+				57A7124A1A6B231E006EFC31 /* CoreGraphics.framework in Frameworks */,
+				57A7124B1A6B231E006EFC31 /* CoreLocation.framework in Frameworks */,
+				57A7124C1A6B231E006EFC31 /* MobileCoreServices.framework in Frameworks */,
+				57A7124D1A6B231E006EFC31 /* QuartzCore.framework in Frameworks */,
+				57A7124E1A6B231E006EFC31 /* Security.framework in Frameworks */,
+				57A7124F1A6B231E006EFC31 /* StoreKit.framework in Frameworks */,
+				57A712501A6B231E006EFC31 /* SystemConfiguration.framework in Frameworks */,
 				57F03E551A63226F00EB1990 /* SalaryZenKit.framework in Frameworks */,
 				57F03E561A63226F00EB1990 /* Alamofire.framework in Frameworks */,
 				57F03E571A63226F00EB1990 /* AlamofireSwiftyJSON.framework in Frameworks */,
@@ -248,16 +354,13 @@
 		57F03D6C1A62E2A200EB1990 = {
 			isa = PBXGroup;
 			children = (
-				57F03DF01A6316C600EB1990 /* SwiftyJSON.xcodeproj */,
-				57F03DE51A6316BB00EB1990 /* Alamofire-SwiftyJSON.xcodeproj */,
-				57F03DD91A6316B100EB1990 /* Alamofire.xcodeproj */,
-				57F03DD51A62F2F900EB1990 /* tools */,
 				57F03D771A62E2A200EB1990 /* SalaryZen */,
 				57F03DA01A62E31200EB1990 /* SalaryZenKit */,
 				57F03DAF1A62E31200EB1990 /* SalaryZenKitTests */,
 				57F03DC71A62E32F00EB1990 /* SalaryZenToday */,
 				57F03DC41A62E32F00EB1990 /* Frameworks */,
 				57F03D761A62E2A200EB1990 /* Products */,
+				57F03DD51A62F2F900EB1990 /* tools */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,6 +434,25 @@
 		57F03DC41A62E32F00EB1990 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57A712371A6B2251006EFC31 /* libsqlite3.dylib */,
+				57A712351A6B224A006EFC31 /* libz.dylib */,
+				57A712331A6B2241006EFC31 /* libstdc++.6.dylib */,
+				57A712311A6B2227006EFC31 /* SystemConfiguration.framework */,
+				57A7122F1A6B2220006EFC31 /* StoreKit.framework */,
+				57A7122D1A6B2212006EFC31 /* CloudKit.framework */,
+				57A7122B1A6B220D006EFC31 /* Security.framework */,
+				57A712291A6B2204006EFC31 /* QuartzCore.framework */,
+				57A712271A6B21FC006EFC31 /* MobileCoreServices.framework */,
+				57A712251A6B21F1006EFC31 /* CoreLocation.framework */,
+				57A712231A6B21E9006EFC31 /* CoreGraphics.framework */,
+				57A712211A6B21E1006EFC31 /* CFNetwork.framework */,
+				57A7121F1A6B21D9006EFC31 /* AudioToolbox.framework */,
+				57F03DF01A6316C600EB1990 /* SwiftyJSON.xcodeproj */,
+				57F03DE51A6316BB00EB1990 /* Alamofire-SwiftyJSON.xcodeproj */,
+				57F03DD91A6316B100EB1990 /* Alamofire.xcodeproj */,
+				57A712101A6B2181006EFC31 /* Bolts.framework */,
+				57A712111A6B2181006EFC31 /* Parse.framework */,
+				57A712121A6B2181006EFC31 /* ParseCrashReporting.framework */,
 				57F03DC51A62E32F00EB1990 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
@@ -412,11 +534,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				57F03DB51A62E31200EB1990 /* PBXTargetDependency */,
-				57F03DCF1A62E32F00EB1990 /* PBXTargetDependency */,
+				57F03E0A1A63171400EB1990 /* PBXTargetDependency */,
 				57F03E021A63171400EB1990 /* PBXTargetDependency */,
 				57F03E061A63171400EB1990 /* PBXTargetDependency */,
-				57F03E0A1A63171400EB1990 /* PBXTargetDependency */,
+				57F03DB51A62E31200EB1990 /* PBXTargetDependency */,
+				57F03DCF1A62E32F00EB1990 /* PBXTargetDependency */,
 			);
 			name = SalaryZen;
 			productName = SalaryZen;
@@ -654,7 +776,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -x\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
+			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -ex\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\nif [ \"${CONFIGURATION}\" == \"Release\" ]; then\npushd parse\n/usr/local/bin/parse symbols \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\npopd\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
 		};
 		57F03DD71A62FAB300EB1990 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -667,7 +789,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -x\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
+			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -ex\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
 		};
 		57F03DD81A62FAC100EB1990 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -680,7 +802,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -x\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
+			shellScript = "#!/usr/bin/env bash\n\n# Should be manually added to all targets\n# Editor > Add Build Phase > Add Run Script Build Phase\n\nset -ex\n\nAPP_VERSION=$(git describe --always --dirty)\nCOMMITS_COUNT=$(git rev-list HEAD | wc -l)\nAPP_BUILD=$(($COMMITS_COUNT))\n\nif [ \"${CONFIGURATION}\" != \"Release\" ]; then\nTS_SINCE=$(date -u -j -f %y-%M-%d 15-1-1 +%s)\nTS_NOW=$(date +%s)\nAPP_BUILD=$APP_BUILD.$(expr $TS_NOW - $TS_SINCE)\nfi\n\necho \"App version (CFBundleShortVersionString): ${APP_VERSION#*v}\"\necho \"App build (CFBundleVersion): ${APP_BUILD}\"\n\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleShortVersionString\" \"${APP_VERSION#*v}\"\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${APP_BUILD}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -863,6 +985,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SalaryZen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -875,6 +1001,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SalaryZen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -891,6 +1021,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -916,6 +1050,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SalaryZenKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

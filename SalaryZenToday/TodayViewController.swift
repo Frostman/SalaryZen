@@ -15,23 +15,15 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     @IBOutlet weak var mainLabel: UILabel!
     
     func update(handler: ((NCUpdateResult) -> Void)? = nil) {
-        let usd = CurrencyExchangeInfo(currency: Currency.USD) {
+        SalaryZenKit.fetchRatesInfo {
             info in
-            let nonCashBuyRate = info.nonCashBuyRate?.format() ?? "No Data"
-            let nonCashSellRate = info.nonCashSellRate?.format() ?? "No Data"
-            let cbRate = info.cbRate?.format() ?? "No Data"
-            let coef = ((info.cbRate ?? 0.0) / 36.93).format() ?? "No Data"
-            
-            self.mainLabel?.text = "$ \(nonCashBuyRate) / \(nonCashSellRate)   cb: \(cbRate) (\(coef))"
-            
-            return
-        }
-        
-        currencyDataFetcher.updateRates(currencyExchangeInfos: [usd]) {
-            _ in
-            if handler != nil {
-                handler!(NCUpdateResult.NewData)
+            if self.mainLabel?.text != info {
+                self.mainLabel?.text = info
+                if let handler = handler {
+                    handler(NCUpdateResult.NewData)
+                }
             }
+            return
         }
     }
     
@@ -52,7 +44,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         // If an error is encountered, use NCUpdateResult.Failed
         // If there's no update required, use NCUpdateResult.NoData
         // If there's an update, use NCUpdateResult.NewData
-        
+
         update(completionHandler)
     }
     

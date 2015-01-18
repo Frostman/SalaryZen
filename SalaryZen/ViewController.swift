@@ -16,20 +16,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let usd = CurrencyExchangeInfo(currency: Currency.USD) {
-            info in
-            let nonCashBuyRate = info.nonCashBuyRate?.format() ?? "No Data"
-            let nonCashSellRate = info.nonCashSellRate?.format() ?? "No Data"
-            let cbRate = info.cbRate?.format() ?? "No Data"
-            let coef = ((info.cbRate ?? 0.0) / 36.93).format()
 
-            self.infoLabel?.text = "$ \(nonCashBuyRate) / \(nonCashSellRate)   cb: \(cbRate) (\(coef))"
+        SalaryZenKit.fetchRatesInfo {
+            info in
+            self.infoLabel?.text = info
             return
-        }
-        
-        currencyDataFetcher.updateRates(currencyExchangeInfos: [usd]) {
-            _ in
         }
     }
     
