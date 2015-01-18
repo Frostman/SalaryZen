@@ -176,7 +176,7 @@ public class CurrencyRatesFetcher {
     private func fetchFromCache() -> (rates: CurrencyRates?, outdated: Bool) {
         if let data = self.cache.objectForKey("data") as? CurrencyRates {
             let now = NSDate().timeIntervalSince1970
-            let outdated = now - data.aggregatedAtTimestamp < self.cacheFor
+            let outdated = now - data.aggregatedAtTimestamp > self.cacheFor
             return (data, outdated)
         }
         return (nil, true)
